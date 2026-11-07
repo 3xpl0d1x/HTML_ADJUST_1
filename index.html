@@ -114,7 +114,10 @@
       <p>Добавьте блок <code>.hero</code> с заголовком <code>h3</code> и коротким абзацем. Задайте блоку минимальную высоту <code>35vh</code> и отцентрируйте содержимое с помощью Flexbox. Сделайте размер заголовка равным <code>6vw</code>, но ограничьте его снизу 24 px, а сверху 56 px. Для ограничения пригодится <code>clamp(минимум, желаемый размер, максимум)</code>.</p>
       <p class="lab-check"><strong>Проверка.</strong> На 360 px заголовок имеет размер 24 px, на 600 px — 36 px, на 1000 px — 56 px. Высота блока меняется при изменении высоты окна.</p>
       <div class="lab-stage task-09">
-        <!-- 09. Добавьте первый экран здесь. -->
+        <div class ="hero">
+          <h3>lorem ipsum</h3>
+          <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+        </div>
       </div>
     </section>
 
@@ -130,7 +133,25 @@
       </ul>
       <p class="lab-check"><strong>Проверка.</strong> Откройте страницу на 320, 640, 900 и 1280 px. Меню и блоки перестраиваются на нужной ширине, текст переносится, горизонтальной прокрутки нет.</p>
       <div class="lab-stage task-10">
-        <!-- 10. Соберите мини-страницу здесь. -->
+        <div class = "task-10">
+          <h3 id = "headline-10">Zagolovok</h3>
+          <div class = "menu-10">
+            <a href="#headline-10">Head</a>
+            <a href="#image">Image</a>
+            <a href="#activities">Activities</a>
+          </div>
+          <div class = "img-block", id ="image">
+            <img src="mountains.svg" alt="a-nice-mountain-view">
+            <p>Добро пожаловать в нашу мастерскую, здесь вы наполнитесь смыслом и вообще...</p>
+          </div>
+          <div class = "cards" id = "activities">
+            <div class = "card">
+              <p>lorem ipsumlorem ipsumlorem ipsumlorem</p>
+            </div>
+            <div class = "card"></div>
+            <div class = "card"></div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
